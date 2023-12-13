@@ -5,8 +5,7 @@ from langchain.vectorstores import FAISS
 import os
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
-from constants import openai_key
-os.environ["OPENAI_API_KEY"] = openai_key
+os.environ["OPENAI_API_KEY"] = "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"
 
 pdfreader = PdfReader('interview.pdf')
 
